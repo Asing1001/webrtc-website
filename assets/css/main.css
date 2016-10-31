@@ -1,0 +1,61 @@
+video {
+  height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: opacity 1s;
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    width: 100%;
+}
+
+body.videoChat{
+    background-color: #333;
+    font-family: 'Roboto', 'Open Sans', 'Lucida Grande', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff;
+}
+
+#localVideo.onCall{
+    border: 1px solid gray;
+    bottom: 20px;
+    left: 20px;
+    max-height: 17%;
+    max-width: 17%;
+    z-index: 1;
+    position: absolute;
+    transition: opacity 1s;
+}
+
+#logo-header{
+    width:200px;
+}
+
+#videos{
+    font-size: 0;
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    transition: all 1s;
+    width: 100%;
+}
+
+
+/*css filter
+video {
+  -webkit-filter: blur(4px) invert(1) opacity(0.5);
+}*/
+
+/*svg filter
+video {
+   filter: hue-rotate(180deg) saturate(200%);
+   -moz-filter: hue-rotate(180deg) saturate(200%);
+   -webkit-filter: hue-rotate(180deg) saturate(200%);
+ }
+*/
