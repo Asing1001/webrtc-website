@@ -1,11 +1,12 @@
-# webrtc-realtime-videochat
-## Feature [Sample here](https://webrtc-realtime-videochat.herokuapp.com/)
+# Realtime video chatroom by webrtc
+[live preview](https://webrtc-realtime-videochat.herokuapp.com/)
+## Feature 
 1. VideoChat by room
 2. Use socket.io to exchange metadata for webRTC 
 
 ## How to use?
-1. First person enter a room name, for example 'coolrtc'
-2. Second one enter same room name as 'coolrtc'
+1. First person select a room
+2. Second one enter same room
 3. Start realtime video chat !
 
 ## For developement
